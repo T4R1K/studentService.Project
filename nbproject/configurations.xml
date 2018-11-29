@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>baza/ispit.h</itemPath>
+      <itemPath>baza/osoba.h</itemPath>
+      <itemPath>baza/predmet.h</itemPath>
+      <itemPath>baza/profesor.h</itemPath>
+      <itemPath>baza/semestar.h</itemPath>
+      <itemPath>baza/smjer.h</itemPath>
+      <itemPath>baza/student.h</itemPath>
+      <itemPath>baza/studijskiprogram.h</itemPath>
+      <itemPath>baza/usmjerenje.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="baza" displayName="baza" projectFiles="true">
+        <itemPath>baza/ispit.dat</itemPath>
+        <itemPath>baza/nastavnik.dat</itemPath>
+        <itemPath>baza/predmet.dat</itemPath>
+        <itemPath>baza/student.dat</itemPath>
+        <itemPath>baza/studijskiProgram.dat</itemPath>
+        <itemPath>baza/usmjerenje.dat</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>baza/ispit.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>baza/predmet.cpp</itemPath>
+      <itemPath>baza/profesor.cpp</itemPath>
+      <itemPath>baza/student.cpp</itemPath>
+      <itemPath>baza/studijski program.cpp</itemPath>
+      <itemPath>baza/usmjerenje.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>baza</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>baza</pElem>
+          </incDir>
+          <incFile>
+            <pElem>baza/ispit.h</pElem>
+            <pElem>baza/osoba.h</pElem>
+            <pElem>baza/predmet.h</pElem>
+            <pElem>baza/profesor.h</pElem>
+            <pElem>baza/smjer.h</pElem>
+            <pElem>baza/student.h</pElem>
+          </incFile>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="baza/ispit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/ispit.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/ispit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/nastavnik.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/osoba.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/predmet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/predmet.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/predmet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/profesor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/profesor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/semestar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/smjer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/student.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/student.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/student.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/studijski program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/studijskiProgram.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/studijskiprogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="baza/ispit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/ispit.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/ispit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/nastavnik.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/osoba.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/predmet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/predmet.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/predmet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/profesor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/profesor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/semestar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/smjer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/student.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/student.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/student.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/studijski program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/studijskiProgram.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/studijskiprogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baza/usmjerenje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
